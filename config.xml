@@ -24,18 +24,6 @@
   <preference name="android-minSdkVersion" value="16" />
     <preference name="android-maxSdkVersion" value="27" />
     <preference name="android-targetSdkVersion" value="27" />
-  <!-- iOS -->
-  <preference name="target-device" value="universal" />
-  <!-- This sets the IPHONEOS_DEPLOYMENT_TARGET in the build, which tranlsates to the MinimumOSVersion in the ipa Propertly List. -->
-  <preference name="deployment-target" value="7.0" />
-  <plugin name="cordova-plugin-console" source="npm" />
-  <plugin name="cordova-plugin-device" source="npm" />
-  <plugin name="cordova-plugin-network-information" source="npm" />
-  <plugin name="cordova-plugin-splashscreen" source="npm" />
-  <plugin name="cordova-plugin-inappbrowser" spec="1.4.0" source="npm" />
-  <plugin name="cordova-plugin-globalization" source="npm" />
-  <plugin name="cordova-plugin-statusbar" spec="2.4.2" />
-  <plugin name="cordova-plugin-whitelist" source="npm" />
   <!-- ICON -->
   <icon src="icon.png" />
   <!-- android -->
@@ -46,7 +34,7 @@
   <icon gap:platform="android" gap:qualifier="xxhdpi" src="icon/android/xxhdpi.png" />
   <icon gap:platform="android" gap:qualifier="xxxhdpi" src="icon/android/xxxhdpi.png" />
   <!-- iPhone / iPod iOS < 7.0 -->
-  <icon src="icon/ios/icon-57.png" platform="ios" width="57" height="57" />
+  <icon src="icon/ios/icon120.png" platform="ios" width="120" height="120" />
   <!-- iPad iOS < 7.0 -->
   <icon src="icon/ios/icon-72.png" platform="ios" width="72" height="72" />
   <!-- iPhone 6 / 6+ -->

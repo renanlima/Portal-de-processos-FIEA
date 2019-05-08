@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<widget id="app/br.com.devexsolucoes" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" android-versionCode="100060">
+<widget id="app/br.com.devexsolucoes" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" android-versionCode="100060">
   <name>Portal de processos FIEA</name>
   <description>
   </description>
@@ -21,7 +21,9 @@
   <preference name="android-installLocation" value="auto" />
   <preference name="disable-push-notifications" value="1" />
   <!-- Android minversion - API Level 21 = Android 5.0 -->
-  <preference name="android-minSdkVersion" value="21" />
+  <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-maxSdkVersion" value="27" />
+    <preference name="android-targetSdkVersion" value="27" />
   <!-- iOS -->
   <preference name="target-device" value="universal" />
   <!-- This sets the IPHONEOS_DEPLOYMENT_TARGET in the build, which tranlsates to the MinimumOSVersion in the ipa Propertly List. -->

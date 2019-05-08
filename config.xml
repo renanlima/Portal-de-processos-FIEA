@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<widget id="app.br.com.devexsolucoes" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" android-versionCode="100060">
+<widget id="app.br.com.devexsolucoes" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" android-versionCode="100060">
   <name>BPMS FIEA</name>
   <description>
   </description>

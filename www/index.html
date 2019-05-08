@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="light-content">
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Orquestra BPM</title>
+</head>
+<body>
+
+    
+    <div class="app-loading hide">
+        <div class="app-loading-body ">
+            <div class="app-loader"></div>
+        </div>
+    </div>
+
+    <div class="app-debug hide"></div>
+
+    <div class="app-connection hide">
+            <div class="languagespecificHTML" data-text="connection-lost">Conex&atilde;o perdida. Aguardando reconex&atilde;o...</div>
+    </div>
+
+    <div class="app-error alert alert-danger hide" id="app-error"></div>
+
+
+    <div class="app-ui hide">
+
+    
+        <div class="mobile-navbar">
+            <div class="mobile-navbar-body">
+                <div class="mobile-navbar-center mobile-navbar-title" style="opacity: 1;">
+                    <h1 class="languagespecificHTML" data-text="h1-server-address">Endere&ccedil;o do servidor</h1>
+                </div>
+            </div>
+        </div>
+
+        <form onsubmit="return false;">
+
+            <div class="box padded box-form">
+
+                        <div class="input-control">
+                            <p class="small label-input languagespecificHTML" data-text="p-server-address">Digite o endere&ccedil;o completo de sua instala&#231;&#227;o do Orquestra.</p>
+
+                            <p class="text-error small label-not-found hide languagespecificHTML" data-text="p-server-not-found">N&atilde;o foi poss&iacute;vel encontrar um ambiente Orquestra v&aacute;lido neste endere&ccedil;o.</p>
+
+                            <input type="url" class="input-block-level text-center" id="orquestra-url" name="orquestra-url" value="" placeholder="http://..." required>
+
+                            <div  class="nav-type-container input-control input-block-level hide">
+                                <select id="nav-type" >
+                                    <option value="inapp" selected>InAppBrowser (_blank)</option>
+                                    <option value="iframe">Iframe</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" id="button-go" class="btn btn-primary btn-block btn-large btn-go languagespecificHTML" data-text="button-go">Prosseguir</button>
+                        </div>
+
+            </div>
+        </form>
+
+
+    </div>
+
+    <div class="app-iframe hidden">
+        <iframe id="iframe-main" src=""></iframe>
+    </div>
+
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript">
+        var IS_RIPPLE =   /ripple$/.test(document.location.href);
+        var IS_DEBUG =  /debug$/.test(document.location.href) || FORCE_DEBUG || IS_RIPPLE;
+        var IS_PHONEGAP =  !/^http/.test(document.location.protocol);
+        if (IS_PHONEGAP) {
+            document.write("<script src='cordova.js'><\/script>");
+        }
+    </script>
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="js/i18n.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript">app.init();</script>
+</body>
+</html>

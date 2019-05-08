@@ -1,0 +1,13 @@
+{
+    "languageSpecifications": [
+        {
+            "h1-server-address": "Server location",
+            "label-server-address": "System's location",
+            "p-server-address": "Please fill the complete URL of your Orquestra BPMS installation.",
+            "p-server-not-found" : "Could not find a valid Orquestra BPMS environment in this URL.",
+            "loading": "Loading...",
+            "connection-lost" : "Connection lost. Please wait reconnection...",
+            "button-go" : "Go"
+        }
+    ]
+}

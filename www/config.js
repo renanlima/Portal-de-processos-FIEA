@@ -1,0 +1,5 @@
+var FORCE_DEBUG = false;
+// N�O MODIFICAR A LINHA ABAIXO - SER� EDITADA PELO ORQUESTRA NA GERACAO DE APP
+var DEFAULT_URL = 'http://bpms.sistemafiea.org.br/orquestra/mobile/mblogin.aspx?&r=406555317&';
+// N�O MODIFICAR A LINHA ABAIXO - SER� EDITADA PELO ORQUESTRA NA GERACAO DE APP
+var IS_PREVIEW = false;

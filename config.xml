@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget id="app/br.com.devexsolucoes" version="v1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" android-versionCode="100060">
+  <name>Portal de processos FIEA</name>
+  <description>
+  </description>
+  <author email="marcelo@devexsolucoes.com.br" href="http://www.devexsolucoes.com.br">Marcelo Bilonia</author>
+  <content src="index.html" />
+  <preference name="DisallowOverscroll" value="true" />
+  <preference name="UIWebViewBounce" value="false" />
+  <preference name="permissions" value="none" />
+  <preference name="orientation" value="default" />
+  <preference name="fullscreen" value="false" />
+  <preference name="webviewbounce" value="true" />
+  <preference name="prerendered-icon" value="true" />
+  <preference name="stay-in-webview" value="false" />
+  <preference name="detect-data-types" value="true" />
+  <preference name="exit-on-suspend" value="false" />
+  <preference name="show-splash-screen-spinner" value="true" />
+  <preference name="auto-hide-splash-screen" value="true" />
+  <preference name="disable-cursor" value="false" />
+  <preference name="android-installLocation" value="auto" />
+  <preference name="disable-push-notifications" value="1" />
+  <!-- Android minversion - API Level 21 = Android 5.0 -->
+  <preference name="android-minSdkVersion" value="21" />
+  <!-- iOS -->
+  <preference name="target-device" value="universal" />
+  <!-- This sets the IPHONEOS_DEPLOYMENT_TARGET in the build, which tranlsates to the MinimumOSVersion in the ipa Propertly List. -->
+  <preference name="deployment-target" value="7.0" />
+  <plugin name="cordova-plugin-console" source="npm" />
+  <plugin name="cordova-plugin-device" source="npm" />
+  <plugin name="cordova-plugin-network-information" source="npm" />
+  <plugin name="cordova-plugin-splashscreen" source="npm" />
+  <plugin name="cordova-plugin-inappbrowser" spec="1.4.0" source="npm" />
+  <plugin name="cordova-plugin-globalization" source="npm" />
+  <plugin name="org.apache.cordova.statusbar" source="npm" />
+  <plugin name="cordova-plugin-whitelist" source="npm" />
+  <!-- ICON -->
+  <icon src="icon.png" />
+  <!-- android -->
+  <icon gap:platform="android" gap:qualifier="ldpi" src="icon/android/ldpi.png" />
+  <icon gap:platform="android" gap:qualifier="mdpi" src="icon/android/mdpi.png" />
+  <icon gap:platform="android" gap:qualifier="hdpi" src="icon/android/hdpi.png" />
+  <icon gap:platform="android" gap:qualifier="xhdpi" src="icon/android/xhdpi.png" />
+  <icon gap:platform="android" gap:qualifier="xxhdpi" src="icon/android/xxhdpi.png" />
+  <icon gap:platform="android" gap:qualifier="xxxhdpi" src="icon/android/xxxhdpi.png" />
+  <!-- iPhone / iPod iOS < 7.0 -->
+  <icon src="icon/ios/icon-57.png" platform="ios" width="57" height="57" />
+  <!-- iPad iOS < 7.0 -->
+  <icon src="icon/ios/icon-72.png" platform="ios" width="72" height="72" />
+  <!-- iPhone 6 / 6+ -->
+  <icon src="icon/ios/icon-60@3x.png" platform="ios" width="180" height="180" />
+  <!-- iPhone / iPod Touch  -->
+  <icon src="icon/ios/icon-60.png" platform="ios" width="60" height="60" />
+  <icon src="icon/ios/icon-60@2x.png" platform="ios" width="120" height="120" />
+  <!-- iPad -->
+  <icon src="icon/ios/icon-72.png" platform="ios" width="72" height="72" />
+  <icon src="icon/ios/icon-72@2x.png" platform="ios" width="144" height="144" />
+  <!-- iPad -->
+  <icon src="icon/ios/icon-76.png" platform="ios" width="76" height="76" />
+  <icon src="icon/ios/icon-76@2x.png" platform="ios" width="152" height="152" />
+  <!-- iPad Pro -->
+  <icon src="icon/ios/icon-83.5@2x.png" platform="ios" width="167" height="167" />
+  <!-- Settings Icon -->
+  <icon src="icon/ios/icon-small.png" platform="ios" width="29" height="29" />
+  <icon src="icon/ios/icon-small@2x.png" platform="ios" width="58" height="58" />
+  <icon src="icon/ios/icon-small@3x.png" platform="ios" width="87" height="87" />
+  <!-- Spotlight Icon -->
+  <icon src="icon/ios/icon-40.png" platform="ios" width="40" height="40" />
+  <icon src="icon/ios/icon-40@2x.png" platform="ios" width="80" height="80" />
+  <icon src="icon/ios/icon-40@3x.png" platform="ios" width="120" height="120" />
+  <!-- SPLASH -->
+  <splash src="splash.png" />
+  <!-- android -->
+  <splash src="splash/android/ldpi.png" platform="android" qualifier="ldpi" />
+  <splash src="splash/android/mdpi.png" platform="android" qualifier="mdpi" />
+  <splash src="splash/android/hdpi.png" platform="android" qualifier="hdpi" />
+  <splash src="splash/android/xhdpi.png" platform="android" qualifier="xhdpi" />
+  <!--
+    <splash src="fr-xhdpi.png" platform="android" qualifier="fr-xhdpi" />
+    <splash src="portrait-xxhdpi.png" platform="android" qualifier="port-xxhdpi" />
+    -->
+  <!-- iOS -->
+  <!-- iPhone and iPod touch -->
+  <splash src="splash/ios/Default.png" platform="ios" width="320" height="480" />
+  <splash src="splash/ios/Default@2x.png" platform="ios" width="640" height="960" />
+  <!-- iPhone 5 / iPod Touch (5th Generation) -->
+  <splash src="splash/ios/Default-568h@2x.png" platform="ios" width="640" height="1136" />
+  <!-- iPhone 6 -->
+  <splash src="splash/ios/Default-667h.png" platform="ios" width="750" height="1334" />
+  <splash src="splash/ios/Default-736h.png" platform="ios" width="1242" height="2208" />
+  <!-- iPad -->
+  <splash src="splash/ios/Default-Portrait.png" platform="ios" width="768" height="1024" />
+  <!-- Retina iPad -->
+  <splash src="splash/ios/Default-Portrait@2x.png" platform="ios" width="1536" height="2048" />
+  <allow-navigation href="*" />
+  <access origin="*" />
+  <allow-intent href="*" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="tel:*" />
+  <allow-intent href="sms:*" />
+  <allow-intent href="mailto:*" />
+  <allow-intent href="geo:*" />
+  <platform name="android">
+    <allow-intent href="market:*" />
+  </platform>
+  <platform name="ios">
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+  </platform>
+</widget>

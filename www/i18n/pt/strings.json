@@ -1,0 +1,13 @@
+{
+    "languageSpecifications": [
+        {
+            "h1-server-address": "Endereço do servidor",
+            "label-server-address": "Endereço do sistema",
+            "p-server-address": "Digite o endereço completo de sua instala&#231;&#227;o do Orquestra.",
+            "p-server-not-found" : "N&atilde;o foi poss&iacute;vel encontrar um ambiente Orquestra v&aacute;lido neste endere&ccedil;o.",
+            "loading": "Carregando...",
+            "connection-lost" : "Conex&atilde;o perdida. Aguardando reconex&atilde;o...",
+            "button-go" : "Prosseguir"
+        }
+    ]
+}

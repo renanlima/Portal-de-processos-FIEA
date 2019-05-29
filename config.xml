@@ -21,9 +21,10 @@
   <preference name="android-installLocation" value="auto" />
   <preference name="disable-push-notifications" value="1" />
   <!-- Android minversion - API Level 21 = Android 5.0 -->
-  <preference name="android-minSdkVersion" value="16" />
-    <preference name="android-maxSdkVersion" value="27" />
-    <preference name="android-targetSdkVersion" value="27" />
+  <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-maxSdkVersion" value="28" />
+    <preference name="android-targetSdkVersion" value="28" />
+    <engine name="android" spec="7.1.4" />
   <!-- ICON -->
   <icon src="icon.png" />
   <!-- android -->

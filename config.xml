@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<widget id="app.br.com.devexsolucoes" version="1.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="app.br.com.devexsolucoes" version="100070" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" android-versionCode="100070">
   <name>BPMS FIEA</name>
   <description>
   </description>
@@ -24,7 +24,6 @@
   <preference name="android-minSdkVersion" value="19" />
     <preference name="android-maxSdkVersion" value="28" />
     <preference name="android-targetSdkVersion" value="28" />
-    <engine name="android" spec="7.1.4" />
   <!-- ICON -->
   <icon src="icon.png" />
   <!-- android -->
